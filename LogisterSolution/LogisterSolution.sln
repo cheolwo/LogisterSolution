@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisterWebApp", "LogisterWebApp\LogisterWebApp.csproj", "{78FC03A6-E972-40B8-ADEA-CD7FAEF9FF29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessData", "..\..\Common\BusinessData\BusinessData.csproj", "{7E57232D-6A41-4CE8-9E47-78ECF5BB2232}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessRazor", "..\..\Common\BusinessRazor\BusinessRazor.csproj", "{1BA6935C-CBFB-4364-BB5B-5C97EF6012BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisterData", "..\LogisterCommon\LogisterData\LogisterData.csproj", "{0AA531EA-122F-4E26-BE67-60A76F2A2D16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisterRazor", "..\LogisterCommon\LogisterRazor\LogisterRazor.csproj", "{974955FB-D256-4329-9684-2BE7F42505A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisterWebAPIServer", "..\LogisterServer\LogisterWebAPIServer\LogisterWebAPIServer.csproj", "{67FC805A-F29C-456E-BCA6-201E851D2299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78FC03A6-E972-40B8-ADEA-CD7FAEF9FF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FC03A6-E972-40B8-ADEA-CD7FAEF9FF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FC03A6-E972-40B8-ADEA-CD7FAEF9FF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FC03A6-E972-40B8-ADEA-CD7FAEF9FF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E57232D-6A41-4CE8-9E47-78ECF5BB2232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E57232D-6A41-4CE8-9E47-78ECF5BB2232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E57232D-6A41-4CE8-9E47-78ECF5BB2232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E57232D-6A41-4CE8-9E47-78ECF5BB2232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA6935C-CBFB-4364-BB5B-5C97EF6012BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA6935C-CBFB-4364-BB5B-5C97EF6012BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA6935C-CBFB-4364-BB5B-5C97EF6012BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA6935C-CBFB-4364-BB5B-5C97EF6012BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA531EA-122F-4E26-BE67-60A76F2A2D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA531EA-122F-4E26-BE67-60A76F2A2D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA531EA-122F-4E26-BE67-60A76F2A2D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA531EA-122F-4E26-BE67-60A76F2A2D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{974955FB-D256-4329-9684-2BE7F42505A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974955FB-D256-4329-9684-2BE7F42505A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974955FB-D256-4329-9684-2BE7F42505A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974955FB-D256-4329-9684-2BE7F42505A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FC805A-F29C-456E-BCA6-201E851D2299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FC805A-F29C-456E-BCA6-201E851D2299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FC805A-F29C-456E-BCA6-201E851D2299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FC805A-F29C-456E-BCA6-201E851D2299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CB2999C-2456-4DD8-A3F1-7E37CB189D68}
+	EndGlobalSection
+EndGlobal
